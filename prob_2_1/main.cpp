@@ -8,5 +8,6 @@ int main(){
     k.a = 4;
     k.b = 3;
     cout << k.a << " + " << k.b << " = " << k.add() << endl;
-    return 0;
+    cout << k.a << " - " << k.b << " = " << k.take() << endl;
+	return 0;
 }

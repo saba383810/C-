@@ -6,6 +6,7 @@ public:
     int a;
     int b;
     int add();
+	int take();
 };
  
 #endif // _KEISAN_H_
