@@ -10,6 +10,5 @@ int main(){
 	cout << "文字列を入力してください:";
 	cin >> s;
 	cout << l + s <<  "です。" << endl;
-	return 0;
 
 }
