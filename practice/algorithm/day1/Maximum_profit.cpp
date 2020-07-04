@@ -9,7 +9,7 @@ int main()
 
     for(int i=0;i<n;i++)  cin  >> R[i];
 
-    int maxv = -20000000000;
+    int maxv = -2000000000;
     int minv = R[0];
 
     for(int i=1;i<n;i++){
@@ -18,6 +18,6 @@ int main()
     }
 
     cout << maxv << endl;
-    
+
     return 0;
 }
