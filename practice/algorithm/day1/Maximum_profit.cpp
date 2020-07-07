@@ -15,7 +15,6 @@ int main()
     for(int i=1;i<n;i++){
         maxv = max(maxv ,R[i]-minv);
         minv = min(minv ,R[i]);
-        
     }
 
     cout << maxv << endl;
