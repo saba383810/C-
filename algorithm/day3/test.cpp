@@ -1,3 +1,5 @@
+//if(i)の挙動確認のテストプログラムです。
+
 #include<iostream>
 using namespace std;
 
