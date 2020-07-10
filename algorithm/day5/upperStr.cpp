@@ -1,7 +1,6 @@
-/*transformのでtolowerやtoupperを使うとき
+/*
+transformのでtolowerやtoupperを使うとき
 「::tolower」や「::toupper」として使わないとstdのnamespaceを認識してくれない問題
-
-
 */
 #include<iostream>
 #include<string>
@@ -17,5 +16,4 @@ int main(){
     cout << str << endl;
     transform(str.begin(), str.end(), str.begin(), ::toupper);
     cout << str << endl;
-
 }
