@@ -8,7 +8,7 @@ using namespace std;
 
 long long cnt;
 int l;
-int A[10000000];
+int A[1000000];
 int n;
 vector<int> G;
 
@@ -46,7 +46,7 @@ int main(){
 
     cout << G.size() <<endl;
     for(int i=G.size()-1;i>=0;i--){
-        printf("%d\n",cnt);
+        printf("%d",cnt);
         if(i)printf(" ");
     }
     printf("\n");
